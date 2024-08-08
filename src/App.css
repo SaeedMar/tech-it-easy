@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Verkoop-overzicht {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.dashBoardContainer{
+    margin-bottom: 30px;
+}
+
+.Dash-board {
+    text-align: center;
+}
+
+.dashBoardContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.flex-box1 {
+    display: flex;
+    justify-content: space-around;
+    background: lightcyan;
+    height: 200px;
+    align-items: center;
+    padding: 25px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    border: 1px solid green;
+
+}
+
+.flex-box2 {
+    display: flex;
+    justify-content: space-around;
+    background: lightblue;
+    height: 200px;
+    align-items: center;
+    padding: 25px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    border: 1px solid blue;
+
+}
+
+.flex-box3 {
+    display: flex;
+    justify-content: space-around;
+    background: lightpink;
+    height: 200px;
+    align-items: center;
+    padding: 25px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+
+}
+
+.best-selling-tv {
+    display: flex;
+    background: lightgray;
+    align-items: center;
+    border: solid 1px;
+    padding: 25px 25px;
+
+}
+
+.tvPhoto {
+    display: flex;
+    height: 200px;
+    background: lightgray;
+    margin-right: 20px;
+}
+
+.checkIcon {
+  height: 15px;
+}
+
+.minusIcon {
+    height: 15px;
+}
+
+.bestSelling3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
