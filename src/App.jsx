@@ -22,7 +22,7 @@ function App() {
     const bestTv = bestSellingTv;
 
     const handleMostSoldFirst = () => {
-        const sorted = [...sortedInventory].sort((a, b) => b.sold - a.sold);
+        const sorted = [...sortedInventory].sort((a, b) => b.sold - a.sold);git
         setSortedInventory(sorted);
         console.log(sorted);
     };
