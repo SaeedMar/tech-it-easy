@@ -22,20 +22,19 @@ function App() {
     const bestTv = bestSellingTv;
 
     const handleMostSoldFirst = () => {
-        const sorted = [...sortedInventory].sort((a, b) => b.sold - a.sold); // Sorteer van hoog naar laag
-        setSortedInventory(sorted); // Update de state
+        const sorted = [...sortedInventory].sort((a, b) => b.sold - a.sold);git
+        setSortedInventory(sorted);
         console.log(sorted);
     };
 
     const handleCheapestFirst = () => {
-        const sorted = [...sortedInventory].sort((a, b) => a.price - b.price); // Sorteer van laag naar hoog
-        setSortedInventory(sorted); // Update de state
+        const sorted = [...sortedInventory].sort((a, b) => a.price - b.price);
+        setSortedInventory(sorted);
         console.log(sorted);
     };
 
     const handleBestForSportsFirst = () => {
-        const sorted = [...sortedInventory].sort((a, b) => b.refreshRate - a.refreshRate); // Sorteer van hoog naar laag
-        setSortedInventory(sorted); // Update de state
+        const sorted = [...sortedInventory].sort((a, b) => b.refreshRate - a.refreshRate);
         console.log(sorted);
     };
 
